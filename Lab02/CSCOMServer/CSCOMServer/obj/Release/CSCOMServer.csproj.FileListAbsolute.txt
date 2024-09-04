@@ -1,0 +1,4 @@
+C:\Users\Demet\Desktop\Labs\Lab02\CSCOMServer\CSCOMServer\obj\Release\CSCOMServer.csproj.AssemblyReference.cache
+C:\Users\Demet\Desktop\Labs\Lab02\CSCOMServer\CSCOMServer\obj\Release\CSCOMServer.csproj.CoreCompileInputs.cache
+C:\Users\Demet\Desktop\Labs\Lab02\CSCOMServer\CSCOMServer\obj\Release\CSCOMServer.dll
+C:\Users\Demet\Desktop\Labs\Lab02\CSCOMServer\CSCOMServer\obj\Release\CSCOMServer.pdb

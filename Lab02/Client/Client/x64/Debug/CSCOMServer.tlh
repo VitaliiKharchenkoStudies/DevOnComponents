@@ -1,0 +1,107 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 14.40.33811.0 (172908d5).
+//
+// C:\Users\Demet\Desktop\Labs\Lab02\Client\Client\x64\Debug\CSCOMServer.tlh
+//
+// C++ source equivalent of Win32 type library C:\\Users\\Demet\\Desktop\\Labs\\Lab02\\Lib\\CSCOMServer.tlb
+// compiler-generated file - DO NOT EDIT!
+
+#pragma once
+#pragma pack(push, 8)
+
+#include <comdef.h>
+
+namespace CSCOMServer {
+
+//
+// Forward references and typedefs
+//
+
+struct __declspec(uuid("76279537-3b38-4d43-b291-bca597a40b32"))
+/* LIBID */ __CSCOMServer;
+struct __declspec(uuid("2c88f579-faec-4c32-be76-763723e81a4d"))
+/* dual interface */ ISerializable;
+struct __declspec(uuid("dd3fb53c-afe9-4e7d-b288-f00a81be90ce"))
+/* dual interface */ IPoint;
+struct __declspec(uuid("ff65d9ff-83db-4d95-8ab0-e517abb6383a"))
+/* dual interface */ ICircumference;
+struct /* coclass */ Point;
+struct /* coclass */ Circle;
+
+//
+// Smart pointer typedef declarations
+//
+
+_COM_SMARTPTR_TYPEDEF(ISerializable, __uuidof(ISerializable));
+_COM_SMARTPTR_TYPEDEF(IPoint, __uuidof(IPoint));
+_COM_SMARTPTR_TYPEDEF(ICircumference, __uuidof(ICircumference));
+
+//
+// Type library items
+//
+
+struct __declspec(uuid("2c88f579-faec-4c32-be76-763723e81a4d"))
+ISerializable : IDispatch
+{
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall ReadData (
+        /*[in]*/ BSTR data ) = 0;
+};
+
+struct __declspec(uuid("dd3fb53c-afe9-4e7d-b288-f00a81be90ce"))
+IPoint : IDispatch
+{
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_X (
+        /*[out,retval]*/ double * pRetVal ) = 0;
+      virtual HRESULT __stdcall put_X (
+        /*[in]*/ double pRetVal ) = 0;
+      virtual HRESULT __stdcall get_Y (
+        /*[out,retval]*/ double * pRetVal ) = 0;
+      virtual HRESULT __stdcall put_Y (
+        /*[in]*/ double pRetVal ) = 0;
+      virtual HRESULT __stdcall DistanceTo (
+        /*[in]*/ struct IPoint * other,
+        /*[out,retval]*/ long * pRetVal ) = 0;
+};
+
+struct __declspec(uuid("ff65d9ff-83db-4d95-8ab0-e517abb6383a"))
+ICircumference : IDispatch
+{
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_Center (
+        /*[out,retval]*/ struct IPoint * * pRetVal ) = 0;
+      virtual HRESULT __stdcall putref_Center (
+        /*[in]*/ struct IPoint * pRetVal ) = 0;
+      virtual HRESULT __stdcall get_Radius (
+        /*[out,retval]*/ double * pRetVal ) = 0;
+      virtual HRESULT __stdcall put_Radius (
+        /*[in]*/ double pRetVal ) = 0;
+      virtual HRESULT __stdcall Contains (
+        /*[in]*/ struct IPoint * Point,
+        /*[out,retval]*/ VARIANT_BOOL * pRetVal ) = 0;
+};
+
+struct __declspec(uuid("68f53439-c0f1-484a-9d3d-748c84e86146"))
+Point;
+    // interface _Object
+    // [ default ] interface IPoint
+    // interface ISerializable
+
+struct __declspec(uuid("9cdea747-c857-411d-be1e-5ee65b9d4f08"))
+Circle;
+    // interface _Object
+    // [ default ] interface ICircumference
+    // interface ISerializable
+
+} // namespace CSCOMServer
+
+#pragma pack(pop)

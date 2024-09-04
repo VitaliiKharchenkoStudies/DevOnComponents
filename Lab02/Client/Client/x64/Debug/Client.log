@@ -1,0 +1,27 @@
+﻿  Client.cpp
+C:\Users\Demet\Desktop\Labs\Lab02\Client\Client\Client.cpp(7,17): error C2871: 'GeometryApp': a namespace with this name does not exist
+C:\Users\Demet\Desktop\Labs\Lab02\Client\Client\Client.cpp(7,17): error C2065: 'GeometryApp': undeclared identifier
+C:\Users\Demet\Desktop\Labs\Lab02\Client\Client\Client.cpp(21,9): error C2065: 'IPointPtr': undeclared identifier
+C:\Users\Demet\Desktop\Labs\Lab02\Client\Client\Client.cpp(21,19): error C2146: syntax error: missing ';' before identifier 'firstPoint'
+C:\Users\Demet\Desktop\Labs\Lab02\Client\Client\Client.cpp(21,19): error C2065: 'firstPoint': undeclared identifier
+C:\Users\Demet\Desktop\Labs\Lab02\Client\Client\Client.cpp(22,9): error C2065: 'IPointPtr': undeclared identifier
+C:\Users\Demet\Desktop\Labs\Lab02\Client\Client\Client.cpp(22,19): error C2146: syntax error: missing ';' before identifier 'secondPoint'
+C:\Users\Demet\Desktop\Labs\Lab02\Client\Client\Client.cpp(22,19): error C2065: 'secondPoint': undeclared identifier
+C:\Users\Demet\Desktop\Labs\Lab02\Client\Client\Client.cpp(23,9): error C2065: 'IPointPtr': undeclared identifier
+C:\Users\Demet\Desktop\Labs\Lab02\Client\Client\Client.cpp(23,19): error C2146: syntax error: missing ';' before identifier 'thirdPoint'
+C:\Users\Demet\Desktop\Labs\Lab02\Client\Client\Client.cpp(23,19): error C2065: 'thirdPoint': undeclared identifier
+C:\Users\Demet\Desktop\Labs\Lab02\Client\Client\Client.cpp(24,9): error C2065: 'ICircumferencePtr': undeclared identifier
+C:\Users\Demet\Desktop\Labs\Lab02\Client\Client\Client.cpp(24,27): error C2146: syntax error: missing ';' before identifier 'initialCircle'
+C:\Users\Demet\Desktop\Labs\Lab02\Client\Client\Client.cpp(24,27): error C2065: 'initialCircle': undeclared identifier
+C:\Users\Demet\Desktop\Labs\Lab02\Client\Client\Client.cpp(26,14): error C2065: 'firstPoint': undeclared identifier
+C:\Users\Demet\Desktop\Labs\Lab02\Client\Client\Client.cpp(26,49): error C2065: 'Point': undeclared identifier
+C:\Users\Demet\Desktop\Labs\Lab02\Client\Client\Client.cpp(27,14): error C2065: 'secondPoint': undeclared identifier
+C:\Users\Demet\Desktop\Labs\Lab02\Client\Client\Client.cpp(27,50): error C2065: 'Point': undeclared identifier
+C:\Users\Demet\Desktop\Labs\Lab02\Client\Client\Client.cpp(28,14): error C2065: 'thirdPoint': undeclared identifier
+C:\Users\Demet\Desktop\Labs\Lab02\Client\Client\Client.cpp(28,49): error C2065: 'Point': undeclared identifier
+C:\Users\Demet\Desktop\Labs\Lab02\Client\Client\Client.cpp(29,14): error C2065: 'initialCircle': undeclared identifier
+C:\Users\Demet\Desktop\Labs\Lab02\Client\Client\Client.cpp(29,52): error C2065: 'Circle': undeclared identifier
+C:\Users\Demet\Desktop\Labs\Lab02\Client\Client\Client.cpp(35,13): error C2065: 'firstPoint': undeclared identifier
+C:\Users\Demet\Desktop\Labs\Lab02\Client\Client\Client.cpp(36,13): error C2065: 'firstPoint': undeclared identifier
+C:\Users\Demet\Desktop\Labs\Lab02\Client\Client\Client.cpp(40,13): error C2065: 'firstPoint': undeclared identifier
+C:\Users\Demet\Desktop\Labs\Lab02\Client\Client\Client.cpp(41,13): error C2065: 'firstPoint': undeclared identifier
