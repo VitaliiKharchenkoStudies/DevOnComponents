@@ -1,7 +1,0 @@
-C:\Users\Demet\Desktop\Labs\Lab02\CSCOMServer\CSCOMServer\bin\Debug\CSCOMServer.dll
-C:\Users\Demet\Desktop\Labs\Lab02\CSCOMServer\CSCOMServer\bin\Debug\CSCOMServer.pdb
-C:\Users\Demet\Desktop\Labs\Lab02\CSCOMServer\CSCOMServer\bin\Debug\CSCOMServer.tlb
-C:\Users\Demet\Desktop\Labs\Lab02\CSCOMServer\CSCOMServer\obj\Debug\CSCOMServer.csproj.AssemblyReference.cache
-C:\Users\Demet\Desktop\Labs\Lab02\CSCOMServer\CSCOMServer\obj\Debug\CSCOMServer.csproj.CoreCompileInputs.cache
-C:\Users\Demet\Desktop\Labs\Lab02\CSCOMServer\CSCOMServer\obj\Debug\CSCOMServer.dll
-C:\Users\Demet\Desktop\Labs\Lab02\CSCOMServer\CSCOMServer\obj\Debug\CSCOMServer.pdb

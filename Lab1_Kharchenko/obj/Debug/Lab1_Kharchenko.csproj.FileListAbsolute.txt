@@ -1,0 +1,7 @@
+C:\Users\lodki\OneDrive\Рабочий стол\Нова папка (4)\LABS\Lab1_Kharchenko\bin\Debug\Lab1_Kharchenko.exe.config
+C:\Users\lodki\OneDrive\Рабочий стол\Нова папка (4)\LABS\Lab1_Kharchenko\bin\Debug\Lab1_Kharchenko.exe
+C:\Users\lodki\OneDrive\Рабочий стол\Нова папка (4)\LABS\Lab1_Kharchenko\bin\Debug\Lab1_Kharchenko.pdb
+C:\Users\lodki\OneDrive\Рабочий стол\Нова папка (4)\LABS\Lab1_Kharchenko\obj\Debug\Lab1_Kharchenko.csproj.AssemblyReference.cache
+C:\Users\lodki\OneDrive\Рабочий стол\Нова папка (4)\LABS\Lab1_Kharchenko\obj\Debug\Lab1_Kharchenko.csproj.CoreCompileInputs.cache
+C:\Users\lodki\OneDrive\Рабочий стол\Нова папка (4)\LABS\Lab1_Kharchenko\obj\Debug\Lab1_Kharchenko.exe
+C:\Users\lodki\OneDrive\Рабочий стол\Нова папка (4)\LABS\Lab1_Kharchenko\obj\Debug\Lab1_Kharchenko.pdb

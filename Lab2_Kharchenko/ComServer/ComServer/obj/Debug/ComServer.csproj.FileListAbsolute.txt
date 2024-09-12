@@ -1,0 +1,7 @@
+C:\Users\lodki\OneDrive\Рабочий стол\Нова папка (4)\LABS\Lab2_Kharchenko\ComServer\ComServer\bin\Debug\ComServer.dll
+C:\Users\lodki\OneDrive\Рабочий стол\Нова папка (4)\LABS\Lab2_Kharchenko\ComServer\ComServer\bin\Debug\ComServer.pdb
+C:\Users\lodki\OneDrive\Рабочий стол\Нова папка (4)\LABS\Lab2_Kharchenko\ComServer\ComServer\obj\Debug\ComServer.csproj.AssemblyReference.cache
+C:\Users\lodki\OneDrive\Рабочий стол\Нова папка (4)\LABS\Lab2_Kharchenko\ComServer\ComServer\obj\Debug\ComServer.csproj.CoreCompileInputs.cache
+C:\Users\lodki\OneDrive\Рабочий стол\Нова папка (4)\LABS\Lab2_Kharchenko\ComServer\ComServer\obj\Debug\ComServer.dll
+C:\Users\lodki\OneDrive\Рабочий стол\Нова папка (4)\LABS\Lab2_Kharchenko\ComServer\ComServer\obj\Debug\ComServer.pdb
+C:\Users\lodki\OneDrive\Рабочий стол\Нова папка (4)\LABS\Lab2_Kharchenko\ComServer\ComServer\bin\Debug\ComServer.tlb

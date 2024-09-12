@@ -1,0 +1,72 @@
+﻿// ComServer.idl : IDL source for ComServer
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (ComServer.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(2059082a-e529-483c-84b9-c0a55bf80274),
+	dual,
+	nonextensible,
+	pointer_default(unique)
+]
+interface IATLSimpleObject : IDispatch
+{
+};
+[
+	object,
+	uuid(db6b58b1-158b-4d36-a8f3-d017b0475223),
+	dual,
+	nonextensible,
+	pointer_default(unique)
+]
+interface IPoint : IDispatch
+{
+};
+[
+	object,
+	uuid(e6f78ad1-bc7c-49f1-871c-235c0c001505),
+	dual,
+	nonextensible,
+	pointer_default(unique)
+]
+interface IVector : IDispatch
+{
+};
+[
+	uuid(dba264c4-2fe2-4d7b-ad37-452721bd2910),
+	version(1.0),
+]
+library ComServerLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(0675cfdc-3bcf-4333-b2dd-75a8ee23fa50)
+	]
+	coclass ATLSimpleObject
+	{
+		[default] interface IATLSimpleObject;
+	};
+	[
+		uuid(a42b1c89-4cc8-4d4b-ab25-fc88a3ac108e)
+	]
+	coclass Point
+	{
+		[default] interface IPoint;
+	};
+	[
+		uuid(35e738f5-1c1d-4cb8-ba37-9fd5186224f0)
+	]
+	coclass Vector
+	{
+		[default] interface IVector;
+	};
+};
+
+import "shobjidl.idl";
+import "shobjidl.idl";
+import "shobjidl.idl";

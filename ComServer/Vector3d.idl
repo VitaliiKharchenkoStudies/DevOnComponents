@@ -1,0 +1,36 @@
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+    object,
+        uuid(11111111-1111-1111-1111-111111111111),
+        pointer_default(unique)
+]
+interface I3DPoint : IUnknown
+{
+    HRESULT SetCoordinates([in] double x, [in] double y, [in] double z);
+    HRESULT GetCoordinates([out] double* x, [out] double* y, [out] double* z);
+};
+
+[
+    object,
+        uuid(22222222-2222-2222-2222-222222222222),
+        pointer_default(unique)
+]
+interface I3DVector : IUnknown
+{
+    HRESULT SetVector([in] double x, [in] double y, [in] double z);
+    HRESULT GetVector([out] double* x, [out] double* y, [out] double* z);
+    HRESULT GetUnitVector([out] double* x, [out] double* y, [out] double* z);
+};
+
+[
+    object,
+        uuid(33333333-3333-3333-3333-333333333333),
+        pointer_default(unique)
+]
+interface ISerializable : IUnknown
+{
+    HRESULT FromString([in] BSTR data);
+    HRESULT ToString([out, retval] BSTR* data);
+};
