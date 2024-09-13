@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "wYu905G/VWnE3r9BkSC4g7uR1FcBOCwfP0n3xlolqv6Q/+MXWv/ms8aRi8UIS3Zn++wWVvj80+AMxBIzcqbqPw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\lodki\\OneDrive\\Рабочий стол\\Нова папка (4)\\DevOnComponents\\lab5\\lab5.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lodki\\.nuget\\packages\\autocad\\1.0.0\\autocad.1.0.0.nupkg.sha512",
+    "C:\\Users\\lodki\\.nuget\\packages\\autodesk.autocad\\1.0.0\\autodesk.autocad.1.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'AutoCad 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "AutoCad",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

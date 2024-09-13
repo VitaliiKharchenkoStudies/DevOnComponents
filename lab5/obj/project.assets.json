@@ -1,0 +1,143 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "AutoCad/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/CADControl.dll": {},
+          "lib/CADImport.dll": {},
+          "lib/SharpCompress.dll": {}
+        },
+        "runtime": {
+          "lib/CADControl.dll": {},
+          "lib/CADImport.dll": {},
+          "lib/SharpCompress.dll": {}
+        }
+      },
+      "Autodesk.AutoCAD/1.0.0": {
+        "type": "package"
+      }
+    }
+  },
+  "libraries": {
+    "AutoCad/1.0.0": {
+      "sha512": "WauI40lDaIxNepZrLJiIcl8rB7Ti3UUnFyKuvrS3YOjWgUM3geVyepd/yIzp35YWzMxiRNgkqnHuihPNECydUQ==",
+      "type": "package",
+      "path": "autocad/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "autocad.1.0.0.nupkg.sha512",
+        "autocad.nuspec",
+        "lib/CADControl.dll",
+        "lib/CADImport.dll",
+        "lib/SharpCompress.dll"
+      ]
+    },
+    "Autodesk.AutoCAD/1.0.0": {
+      "sha512": "hYjK+MhLk4nHG2mzd66KBt+LZaWs6JyqPRn6ZOSbsNhW9Af8RnPYy7Z1umTBWTQIZA3ABwxa/yVJojdcIb9i3Q==",
+      "type": "package",
+      "path": "autodesk.autocad/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Autodesk.AutoCAD.Interop.Common.dll",
+        "Autodesk.AutoCAD.Interop.dll",
+        "autodesk.autocad.1.0.0.nupkg.sha512",
+        "autodesk.autocad.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "AutoCad >= 1.0.0",
+      "Autodesk.AutoCAD >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\lodki\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\lodki\\OneDrive\\Рабочий стол\\Нова папка (4)\\DevOnComponents\\lab5\\lab5.csproj",
+      "projectName": "lab5",
+      "projectPath": "C:\\Users\\lodki\\OneDrive\\Рабочий стол\\Нова папка (4)\\DevOnComponents\\lab5\\lab5.csproj",
+      "packagesPath": "C:\\Users\\lodki\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\lodki\\OneDrive\\Рабочий стол\\Нова папка (4)\\DevOnComponents\\lab5\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\lodki\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "AutoCad": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
+          "Autodesk.AutoCAD": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'AutoCad 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "AutoCad",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}
